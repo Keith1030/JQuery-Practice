@@ -1,0 +1,52 @@
+<div>
+  <img src="https://playcode.io/static/img/logo.png" 
+       alt="PlayCode logo">
+  <h1 id="msg"></h1>
+  <table id="EmployeeInfo">
+    <tr data-value="001">
+      <td>
+        <input type="radio" name="sel"/>
+      </td>
+      <td>小明</td>
+      <td class="e_sex" data-value="1">男</td>
+      <td class="seniority">1</td>
+    </tr>
+    <tr data-value="002">
+      <td>
+        <input type="radio" name="sel"/>
+      </td>
+      <td>小美</td>
+      <td class="e_sex" data-value="2">女</td>
+      <td class="seniority">2</td>
+    </tr>
+    <tr data-value="003">
+      <td>
+        <input type="radio" name="sel"/>
+      </td>
+      <td>小強</td>
+      <td class="e_sex" data-value="1">男</td>
+      <td class="seniority">2</td>
+    </tr>
+  </table>
+  <div>
+    姓名:
+    <input type="text" id="emp_name" maxlength="10">
+    <br>
+    性別:
+    <select name="" id="emp_sex">
+      <option value="">請選擇</option>
+      <option value="1">男</option>
+      <option value="2">女</option>
+      <option value="3">其他</option>
+    </select>
+    <br>
+    年資:
+    <input type="number" min="0" max="100" id="emp_seniority">
+    <div>
+      <button id="addBtn">add</button>
+      <button id="modifyBtn">modify</button>
+      <button id="deleteBtn">delete</button>
+      <button id="searchBtn">search</button>
+    </div>
+  </div>
+</div>
