@@ -10,3 +10,5 @@
 	填上所有資料後案刪除按鈕 可刪除radio選取之該員工資料  
 查詢:  
 	填上年資N後 可篩選年資N以上之員工資料  
+  
+[TAKE A LOOK](http://htmlpreview.github.io/?https://github.com/Keith1030/JQuery-Practice/blob/master/index.html)  
